@@ -31,6 +31,15 @@
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.css"
       />
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7YKVSKNGP"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B7YKVSKNGP');
+    </script>
+
       @vite(['resources/css/app.css','resources/js/app.js'])
 
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
